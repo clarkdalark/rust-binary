@@ -12,7 +12,7 @@ fn main()  {
     // turning the string into numbers
     let base:i32 = base_str.trim().parse().unwrap();
 
-    let basemax:i64 = base * base * base * base * base * base * base * base - 1
+    let basemax:i32 = base * base * base * base * base * base * base * base - 1;
 
     // taking input for your number
     println!("pick a number between 0 to {}",basemax);
